@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 2px;
+    box-shadow: 1px 1px 20px black;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.logo{
+    margin: 30px 0px;
+    padding-left: 50px;
+    font-size: 30px;
+    margin-left: 20px;
+    color: seagreen;
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    margin-top: -80px;
+    overflow: hidden;
+    position: fixed;
+    margin-left: 350px;
+}
+li {
+    float: left;
+  } 
+li a {
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 25px 15px;
+}
+li a:hover {
+    color: seagreen;
+    text-decoration: 2px underline black;
+    font-weight: bold;
+
+}
+.image{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./vecteezy_businessman-pointing-pen-to-virtual-ai-icon-future_11378934.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 800px;
+}
+.head{
+    margin-left: 200px;
+    padding-top: 200px;
+    text-shadow: 1px 1px 2px bl;
+    text-transform: capitalize;
+    font-size: 50px;
+    color: white;
+    opacity: 1;
+}
+.head1,.head2{
+    color: seagreen;
+}
+.header{
+    margin-left: 200px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    line-height: 1.4;
+}
+.more{
+    margin-left: 200px;
+    margin-top: 15px;
+    padding: 15px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(32, 177, 95);
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+.purchase{
+    margin-left: 10px ;
+    margin-top: 15px;
+    padding: 15px 30px;
+    background-color:rgb(32, 177, 95);
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.more:hover,.purchase:hover{
+    background-color: rgb(35, 205, 148);
+    color: black;
+}
