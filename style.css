@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 .navbar{
-    padding: 2px;
     box-shadow: 1px 1px 20px black;
     position: fixed;
     background-color: white;
@@ -16,7 +15,7 @@
     padding-left: 50px;
     font-size: 30px;
     margin-left: 20px;
-    color: seagreen;
+    color: rgb(35, 205, 148);
     text-transform: uppercase;
 }
 ul {
@@ -37,19 +36,19 @@ li a {
     padding: 25px 15px;
 }
 li a:hover {
-    color: seagreen;
+    color: rgb(35, 205, 148);
     text-decoration: 2px underline black;
     font-weight: bold;
 
 }
 .image{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./vecteezy_businessman-pointing-pen-to-virtual-ai-icon-future_11378934.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./laptop-notepad-work-home-600nw-1708430374.webp);
     background-repeat: no-repeat;
     background-size: cover; 
     height: 800px;
 }
 .head{
-    margin-left: 200px;
+    margin-left: 150px;
     padding-top: 200px;
     text-shadow: 1px 1px 2px bl;
     text-transform: capitalize;
@@ -57,11 +56,11 @@ li a:hover {
     color: white;
     opacity: 1;
 }
-.head1,.head2{
-    color: seagreen;
+span{
+    color: rgb(35, 205, 148);
 }
 .header{
-    margin-left: 200px;
+    margin-left: 150px;
     padding-top: 20px;
     color: white;
     font-size: 20px;
@@ -69,12 +68,12 @@ li a:hover {
     line-height: 1.4;
 }
 .more{
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 15px;
     padding: 15px 40px;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: rgb(32, 177, 95);
+    background-color: rgb(35, 205, 148);
     border-style: none;
     color: white;
     cursor: pointer;
@@ -83,7 +82,7 @@ li a:hover {
     margin-left: 10px ;
     margin-top: 15px;
     padding: 15px 30px;
-    background-color:rgb(32, 177, 95);
+    background-color:rgb(35, 205, 148);
     border-style: none;
     color: white;
     cursor: pointer;
@@ -91,6 +90,5 @@ li a:hover {
     font-weight: bold;
 }
 .more:hover,.purchase:hover{
-    background-color: rgb(35, 205, 148);
     color: black;
 }
